@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cmath>
 using namespace std;
 
 int main() {
@@ -29,7 +28,7 @@ int main() {
 
         for (int i = minVolume; i < 24 && needToRemove > 0; i++) {
             if (left[i]) needToRemove--;
-            else bought += pow(2, i);
+            else bought += 1 << i;
         }
         cout << bought;
     }
