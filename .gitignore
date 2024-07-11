@@ -1,4 +1,10 @@
 baekjoon/**
 !baekjoon/*.*
 !baekjoon/Makefile
+leetcode/**
+!leetcode/*.*
+.idea/**
+.vscode/**
 out/**
+*.*
+
