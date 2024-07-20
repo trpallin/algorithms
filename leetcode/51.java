@@ -32,7 +32,6 @@ class Solution {
     }
 
     public List<List<String>> solveNQueens(int n) {
-        int current = 1;
         List<List<String>> ans = new ArrayList<>();
         int[] queenCols = new int[n];
         solve(0, 0, 0, queenCols, ans, 0, n);
