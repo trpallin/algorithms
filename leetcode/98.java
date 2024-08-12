@@ -29,6 +29,7 @@ class Solution {
         }
         return true;
     }
+    
     public boolean isValidBST(TreeNode root) {
         return isValidBST(root, null, null);
     }
